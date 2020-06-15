@@ -1,0 +1,113 @@
+2020-06-15 00:56:05.084 -0400 INFO: org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2020-06-15 00:56:05.129 -0400 INFO: org.apache.catalina.core.StandardService Stopping service [Catalina]
+2020-06-15 00:56:05.216 -0400 INFO: org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2020-06-15 00:56:05.233 -0400 INFO: org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2020-06-15 00:56:05.261 -0400 WARNING: org.apache.catalina.deploy.NamingResourcesImpl Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bonita]] so no cleanup was performed for that container
+javax.naming.NamingException: No naming context bound to this class loader
+	at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:268)
+	at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1020)
+	at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:1003)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5419)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:845)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1031)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:845)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1031)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:588)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:856)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:762)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:862)
+
+2020-06-15 00:56:07.607 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Server version name:   Apache Tomcat/8.5.53
+2020-06-15 00:56:07.613 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Server built:          Mar 11 2020 10:01:39 UTC
+2020-06-15 00:56:07.616 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Server version number: 8.5.53.0
+2020-06-15 00:56:07.620 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2020-06-15 00:56:07.622 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener OS Version:            4.9.0-12-amd64
+2020-06-15 00:56:07.625 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2020-06-15 00:56:07.632 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+2020-06-15 00:56:07.633 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Version:           1.8.0_252-8u252-b09-1~deb9u1-b09
+2020-06-15 00:56:07.635 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            Oracle Corporation
+2020-06-15 00:56:07.638 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /var/lib/tomcat8
+2020-06-15 00:56:07.639 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /usr/share/tomcat8
+2020-06-15 00:56:07.640 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+2020-06-15 00:56:07.642 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2020-06-15 00:56:07.644 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.awt.headless=true
+2020-06-15 00:56:07.645 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -XX:+UseConcMarkSweepGC
+2020-06-15 00:56:07.652 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2020-06-15 00:56:07.653 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2020-06-15 00:56:07.656 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+2020-06-15 00:56:07.657 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dignore.endorsed.dirs=
+2020-06-15 00:56:07.658 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/var/lib/tomcat8
+2020-06-15 00:56:07.659 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/usr/share/tomcat8
+2020-06-15 00:56:07.660 -0400 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+2020-06-15 00:56:07.661 -0400 INFO: org.apache.catalina.core.AprLifecycleListener An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-06-15 00:56:07.665 -0400 INFO: org.apache.catalina.core.AprLifecycleListener Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.5.2].
+2020-06-15 00:56:07.666 -0400 INFO: org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-15 00:56:07.671 -0400 INFO: org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-15 00:56:07.692 -0400 INFO: org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.0l  10 Sep 2019]
+2020-06-15 00:56:08.015 -0400 INFO: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-15 00:56:08.070 -0400 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2020-06-15 00:56:08.157 -0400 INFO: org.apache.catalina.startup.Catalina Initialization processed in 2075 ms
+2020-06-15 00:56:08.298 -0400 INFO: org.apache.catalina.core.StandardService Starting service [Catalina]
+2020-06-15 00:56:08.307 -0400 INFO: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.53
+2020-06-15 00:56:08.349 -0400 INFO: org.apache.catalina.startup.HostConfig Deploying deployment descriptor [/etc/tomcat8/Catalina/localhost/bonita.xml]
+2020-06-15 00:56:20.884 -0400 SEVERE: org.apache.catalina.core.ContainerBase ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bonita]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: Lorg/slf4j/Logger;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:110)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:269)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationListenerAnnotations(WebAnnotationSet.java:89)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:67)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:328)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:779)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5065)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1358)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1180)
+	... 23 more
+
+2020-06-15 00:56:20.896 -0400 SEVERE: org.apache.catalina.startup.HostConfig Error deploying deployment descriptor [/etc/tomcat8/Catalina/localhost/bonita.xml]
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bonita]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-06-15 00:56:20.907 -0400 INFO: org.apache.catalina.startup.HostConfig Deployment of deployment descriptor [/etc/tomcat8/Catalina/localhost/bonita.xml] has finished in [12,548] ms
+2020-06-15 00:56:20.912 -0400 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [/var/lib/tomcat8/webapps/ROOT]
+2020-06-15 00:56:22.369 -0400 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-15 00:56:23.671 -0400 WARNING: org.apache.catalina.util.SessionIdGeneratorBase Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,286] milliseconds.
+2020-06-15 00:56:23.752 -0400 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [/var/lib/tomcat8/webapps/ROOT] has finished in [2,840] ms
+2020-06-15 00:56:23.775 -0400 INFO: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2020-06-15 00:56:23.830 -0400 INFO: org.apache.catalina.startup.Catalina Server startup in 15671 ms
