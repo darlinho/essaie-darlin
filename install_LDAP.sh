@@ -4,7 +4,7 @@
 
 wget ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.4.47.tgz
 
-# Extract this file and enter to the folder create
+# Extract this file and enter to the create folder
 
 tar zxvf openldap-2.4.47.tgz
 cd openldap-2.4.47
