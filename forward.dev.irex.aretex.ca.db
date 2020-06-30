@@ -1,0 +1,40 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	dns-dev.dev.irex.aretex.ca. root.dev.irex.aretex.ca. (
+			      7		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	localhost.
+@	IN	A	127.0.0.1
+@	IN	AAAA	::1
+
+;Name Server Information
+
+@	IN	NS	dns-dev.dev.irex.aretex.ca.
+
+;IP address of Name Server
+
+dns-dev	IN	A	192.168.33.83
+
+;Mail Exchanger
+
+dev.irex.aretex.ca.	IN	MX	10	mail.dev.irex.aretex.ca.
+
+;A - Record Hostname To Ip Adress
+
+bbb        IN  A  192.168.33.216
+gate       IN  A  192.168.33.224
+guacamole  IN  A  192.168.33.224	
+drive      IN  A  192.168.33.241
+chat	   IN  A  192.168.33.218
+
+;CNAME record
+
+ftp IN CNAME gate.dev.irex.aretex.ca
+;ftp IN CNAME guacamole.dev.irex.aretex.ca
+;ftp IN CNAME bbb.dev.irex.aretex.ca	
