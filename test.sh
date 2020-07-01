@@ -1,16 +1,17 @@
 #!/bin/bash
 
+##################### Variables ##################################
+
 name=$(echo $1 | cut -f1 -d'.')
 lastOip=$(echo $2 | cut -f4 -d'.')
 
+tempip=$(awk "/$name/ {print}" /etc/bind/forward.dev.irex.aretex.ca.db | head -n1 | awk '{print $4}')
+lastOctectReverse=$(awk "/$name.dev.irex.aretex.ca/ {print}" /etc/bind/reverse.dev.irex.aretex.ca.db | head -n1 | awk '{print $1}')
 
-tempip=$(awk "/$name/ {print}" forward.dev.irex.aretex.ca.db | head -n1 | awk '{print $4}')
-lastOctectReverse=$(awk "/$name.dev.irex.aretex.ca/ {print}" reverse.dev.irex.aretex.ca.db | head -n1 | awk '{print $1}')
-
-echo $lastOctectReverse
-
-nbreDeLigne=$(wc -l<forward.dev.irex.aretex.ca.db)
+nbreDeLigne=$(wc -l</etc/bind/forward.dev.irex.aretex.ca.db)
 ligneVide=$(($nbreDeLigne - 6))
+
+##################### Variables ##################################
 
 if [[ $tempip = "" && $lastOctectReverse = "" ]]
 then

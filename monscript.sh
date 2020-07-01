@@ -4,12 +4,12 @@
 BuildHelp()
 {
 	# Display Help
-	echo "Add description of the script functions here."
+	echo "This script install DNS and configure it."
 	echo
 	echo "options:"
-	echo "-h     Print this help."
-	echo "-i     To install DNS Server"
-	echo
+	echo "-h,-help     Print this help."
+	echo "-i,-install     To install DNS Server"
+
 }
 
 Installation(){
@@ -99,9 +99,7 @@ while getopts "install:add:help" option; do
       i)
          Installation
          exit;;
-      a)
-         addLines
-         exit;;
+         ;;
      \?) # incorrect option
          echo "Error: Invalid option"
          exit;;
