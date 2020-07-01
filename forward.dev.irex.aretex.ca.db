@@ -32,6 +32,10 @@ gate       IN  A  192.168.33.224
 guacamole  IN  A  192.168.33.224	
 drive      IN  A  192.168.33.241
 chat	   IN  A  192.168.33.218
+hjf	   IN  A  192.168.33.25
+bonita	   IN  A  192.168.33.137
+xrdp	   IN  A  192.168.33.143
+
 
 ;CNAME record
 
