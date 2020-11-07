@@ -7,21 +7,37 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 ## Preparing all the variables like IP, Hostname, etc, all of them from the server
-CONTAINERIP=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1 -d'/')
+
 RANDOMHAM=$(date +%s|sha256sum|base64|head -c 10)
 RANDOMSPAM=$(date +%s|sha256sum|base64|head -c 10)
 RANDOMVIRUS=$(date +%s|sha256sum|base64|head -c 10)
-HOSTNAME=$(hostname -s)
-DOMAIN="irex.aretex.ca"
-PASS="irex-zimbra"
 
+if [[ -z "$CONTAINERIP" ]];then
+	CONTAINERIP=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1 -d'/')
+fi
+
+if [[ -z "$HOSTNAME" ]];then
+	HOSTNAME=$(hostname -s)
+fi
+
+if [[ -z "$DOMAIN" ]];then
+	DOMAIN=$(hostname -d)
+fi
+
+if [[-z "$PASS"]];then
+	PASS="irex-zimbra"
+fi
+
+if [[-z "$VERSION"]];then
+	VERSION="8.8.15"
+fi
 
 cat <<EOF > /etc/hosts
 127.0.0.1	localhost
 $CONTAINERIP	$HOSTNAME.$DOMAIN	$HOSTNAME
 ::1	localhost ip6-localhost ip6-loopback
-fe00::0	ip6-localnet
-ff00::0 ip6-mcastprefix
+#fe00::0	ip6-localnet
+#ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 EOF
@@ -30,6 +46,7 @@ EOF
 ##Preparing the config files to inject
 echo "Creating the Scripts files"
 mkdir /tmp/zcs && cd /tmp/zcs
+
 touch /tmp/zcs/installZimbraScript
 cat <<EOF >/tmp/zcs/installZimbraScript
 AVDOMAIN="$DOMAIN"
@@ -156,6 +173,17 @@ y
 EOF
 
 ## Install Zimbra Mail Server
+
+if [[ `lsb_release -rs` == "18.04" ]]; then
+	echo "Downloading Zimbra Collaboration 8.8.10 for Ubuntu 18.04"
+	wget https://files.zimbra.com/downloads/${VERSION}_GA/zcs-${VERSION}_GA_3869.UBUNTU18_64.20190918004220.tgz
+	tar xzvf zcs-*
+	echo "Installing Zimbra Collaboration just the Software"
+	cd /tmp/zcs/zcs-* && ./install.sh -s < /tmp/zcs/installZimbra-keystrokes
+	echo "Installing Zimbra Collaboration injecting the configuration"
+	/opt/zimbra/libexec/zmsetup.pl -c /tmp/zcs/installZimbraScript
+fi
+
 if [[ `lsb_release -rs` == "16.04" ]]; then
 	echo "Downloading Zimbra Collaboration 8.8.10 for Ubuntu 16.04"
 	wget https://files.zimbra.com/downloads/8.8.10_GA/zcs-8.8.10_GA_3039.UBUNTU16_64.20180928094617.tgz
@@ -166,7 +194,7 @@ if [[ `lsb_release -rs` == "16.04" ]]; then
 	/opt/zimbra/libexec/zmsetup.pl -c /tmp/zcs/installZimbraScript
 fi
 if [[ `lsb_release -rs` == "14.04" ]]; then
-	echo "Downloading Zimbra Collaboration 8.8.10 for Ubuntu 16.04"
+	echo "Downloading Zimbra Collaboration 8.8.10 for Ubuntu 14.04"
 	wget https://files.zimbra.com/downloads/8.8.10_GA/zcs-8.8.10_GA_3039.UBUNTU14_64.20180928094617.tgz
 	tar xzvf zcs-*
 	echo "Installing Zimbra Collaboration just the Software"
