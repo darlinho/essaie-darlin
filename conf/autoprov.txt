@@ -1,0 +1,20 @@
+md example.com zimbraAutoProvAccountNameMap "uid"
+md example.com + zimbraAutoProvAttrMap description = description
+md example.com + zimbraAutoProvAttrMap displayName = displayName
+md example.com + zimbraAutoProvAttrMap givenName = givenName
+md example.com + zimbraAutoProvAttrMap cn = cn
+md example.com + zimbraAutoProvAttrMap sn = sn
+md example.com zimbraAutoProvAuthMech LDAP
+md example.com zimbraAutoProvBatchSize 40
+md example.com zimbraAutoProvLdapAdminBindDn "cn = admin, dc = irex, dc = aretex, dc = fr"
+md example.com zimbraAutoProvLdapAdminBindPassword VE106ARETEX
+md example.com zimbraAutoProvLdapBindDn "admin@irex.aretex.fr"
+md example.com zimbraAutoProvLdapSearchBase "dc = irex, dc = aretex, dc = fr"
+md example.com zimbraAutoProvLdapSearchFilter "(uid = *)"
+md example.com zimbraAutoProvLdapURL "https://ldap.irex.aretex.fr"
+md example.com zimbraAutoProvMode EAGER
+md example.com zimbraAutoProvNotificationBody "Votre compte a été provisionné automatiquement. Votre adresse e-mail est $ {ACCOUNT_ADDRESS}."
+md example.com zimbraAutoProvNotificationFromAddress prov-admin@irex.aretex.ca
+md example.com zimbraAutoProvNotificationSubject "Nouveau compte provisionné automatiquement"
+ms server.example.com zimbraAutoProvPollingInterval "1m"
+ms server.example.com + zimbraAutoProvScheduledDomains "irex.aretex.fr"
