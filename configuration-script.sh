@@ -143,6 +143,17 @@ INSTALL_PACKAGES="zimbra-core zimbra-ldap zimbra-logger zimbra-mta zimbra-snmp z
 EOF
 
 
+########## Creation du fichier de provisionnement de comptes #############################
+
+if [[ $EXTERNAL_CONF = "yes" ]]; then
+
+
+cat $CONF_DIR/autoprov.txt >
+
+
+fi
+
+
 
 echo "####################################################################################"
 echo "|                         End initialisation of parameters                         |"
