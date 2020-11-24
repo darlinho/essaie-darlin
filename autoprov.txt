@@ -1,0 +1,20 @@
+md irex.aretex.ca zimbraAutoProvAccountNameMap "uid"
+md irex.aretex.ca +zimbraAutoProvAttrMap description=description
+md irex.aretex.ca +zimbraAutoProvAttrMap displayName=displayName
+md irex.aretex.ca +zimbraAutoProvAttrMap givenName=givenName
+md irex.aretex.ca +zimbraAutoProvAttrMap cn=cn
+md irex.aretex.ca +zimbraAutoProvAttrMap sn=sn
+md irex.aretex.ca zimbraAutoProvAuthMech LDAP
+md irex.aretex.ca zimbraAutoProvBatchSize 40
+md irex.aretex.ca zimbraAutoProvLdapAdminBindDn "cn=admin,dc=irex,dc=aretex,dc=ca"
+md irex.aretex.ca zimbraAutoProvLdapAdminBindPassword VE106ARETEX
+md irex.aretex.ca zimbraAutoProvLdapBindDn "admin@irex.aretex.ca"
+md irex.aretex.ca zimbraAutoProvLdapSearchBase "cn=users,dc=irex,dc=aretex,dc=ca"
+md irex.aretex.ca zimbraAutoProvLdapSearchFilter "(uid=*)"
+md irex.aretex.ca zimbraAutoProvLdapURL "ldap://ldap.irex.aretex.ca:389"
+md irex.aretex.ca zimbraAutoProvMode EAGER
+md irex.aretex.ca zimbraAutoProvNotificationBody "Votre compte a été provisionné automatiquement. Votre adresse e-mail est ${ACCOUNT_ADDRESS}."
+md irex.aretex.ca zimbraAutoProvNotificationFromAddress prov-admin@irex.aretex.ca
+md irex.aretex.ca zimbraAutoProvNotificationSubject "Nouveau compte provisionné automatiquement"
+ms mail-uat.irex.aretex.ca zimbraAutoProvPollingInterval "1m"
+ms mail-uat.irex.aretex.ca +zimbraAutoProvScheduledDomains "irex.aretex.ca"
