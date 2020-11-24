@@ -1,0 +1,10 @@
+CONTAINERIP="192.168.33.73"
+
+HOSTNAME="mail-uat"
+
+DOMAIN="irex.aretex.ca"
+
+PASS="password-irex"
+
+
+VERSION="8.8.15"
