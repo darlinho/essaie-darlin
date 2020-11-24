@@ -147,9 +147,30 @@ EOF
 
 if [[ $EXTERNAL_CONF = "yes" ]]; then
 
+touch $CONF_DIR/autoprov.txt
 
-cat $CONF_DIR/autoprov.txt >
-
+cat <<EOF >$CONF_DIR/autoprov.txt 
+md irex.aretex.ca zimbraAutoProvAccountNameMap "uid"
+md irex.aretex.ca +zimbraAutoProvAttrMap description=description
+md irex.aretex.ca +zimbraAutoProvAttrMap displayName=displayName
+md irex.aretex.ca +zimbraAutoProvAttrMap givenName=givenName
+md irex.aretex.ca +zimbraAutoProvAttrMap cn=cn
+md irex.aretex.ca +zimbraAutoProvAttrMap sn=sn
+md irex.aretex.ca zimbraAutoProvAuthMech LDAP
+md irex.aretex.ca zimbraAutoProvBatchSize 40
+md irex.aretex.ca zimbraAutoProvLdapAdminBindDn "$zimbraAutoProvLdapAdminBindDn"
+md irex.aretex.ca zimbraAutoProvLdapAdminBindPassword "$zimbraAutoProvLdapAdminBindPassword"
+md irex.aretex.ca zimbraAutoProvLdapBindDn "admin@irex.aretex.ca"
+md irex.aretex.ca zimbraAutoProvLdapSearchBase "$zimbraAutoProvLdapSearchBase"
+md irex.aretex.ca zimbraAutoProvLdapSearchFilter "(uid=*)"
+md irex.aretex.ca zimbraAutoProvLdapURL "$zimbraAutoProvLdapURL"
+md irex.aretex.ca zimbraAutoProvMode EAGER
+md irex.aretex.ca zimbraAutoProvNotificationBody "Your account has been auto provisioned. Your email address is ${ACCOUNT_ADDRESS}."
+md irex.aretex.ca zimbraAutoProvNotificationFromAddress prov-admin@irex.aretex.ca
+md irex.aretex.ca zimbraAutoProvNotificationSubject "New account has been auto provisioned"
+ms mail-uat.irex.aretex.ca zimbraAutoProvPollingInterval "1m"
+ms mail-uat.irex.aretex.ca +zimbraAutoProvScheduledDomains "$zimbraAutoProvScheduledDomains"
+EOF
 
 fi
 

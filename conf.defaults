@@ -8,3 +8,13 @@ PASS="password-irex"
 
 
 VERSION="8.8.15"
+
+
+
+EXTERNAL_LDAP="yes"
+
+zimbraAutoProvLdapAdminBindDn="cn=admin,dc=irex,dc=aretex,dc=ca"
+zimbraAutoProvLdapAdminBindPassword="VE106ARETEX"
+zimbraAutoProvLdapSearchBase="cn=users,dc=irex,dc=aretex,dc=ca"
+zimbraAutoProvLdapURL="ldap://ldap.irex.aretex.ca:389"
+zimbraAutoProvScheduledDomains="irex.aretex.ca"
