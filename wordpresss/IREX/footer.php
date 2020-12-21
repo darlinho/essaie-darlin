@@ -37,7 +37,7 @@
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" class="img-fluid" alt="logo"></a>
+                                <a href="index.html"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" class="img-fluid" alt="logo" style="width:100px; height:100px; margin-top:-20px"></a>
                             </div>
                             <div class="footer-text">
                                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -46,7 +46,7 @@
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
                                 <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/chrome_facebook.png" style="width:50px; height:50px; margin-top:-20px"/></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/icons8-whatsapp-240.png" style="width:50px; height:50px; margin-top:-20px"/></a>
                                 <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
                             </div>
                         </div>
