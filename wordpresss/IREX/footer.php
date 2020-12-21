@@ -45,7 +45,7 @@
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><img src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"/></a>
+                                <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/chrome_facebook.png"/></a>
                                 <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
                                 <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
                             </div>
