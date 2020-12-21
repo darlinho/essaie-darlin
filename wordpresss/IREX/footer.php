@@ -7,7 +7,7 @@
                         <div class="single-cta">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
-                                <h4>Find us</h4>
+                                <h4>Nous trouver</h4>
                                 <span>1010 Avenue, sw 54321, chandigarh</span>
                             </div>
                         </div>
@@ -16,7 +16,7 @@
                         <div class="single-cta">
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
-                                <h4>Call us</h4>
+                                <h4>Nous appeler</h4>
                                 <span>9876543210 0</span>
                             </div>
                         </div>
@@ -25,7 +25,7 @@
                         <div class="single-cta">
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
-                                <h4>Mail us</h4>
+                                <h4>Nous écrire</h4>
                                 <span>mail@info.com</span>
                             </div>
                         </div>
@@ -54,29 +54,27 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
+                                <h3>Liens utiles</h3>
                             </div>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Etudiant</a></li>
+                                <li><a href="#">Professionnel</a></li>
+                                <li><a href="#">Chercheur d'emploi</a></li>
+                                <li><a href="#">Entrepreneur</a></li>
+                                <li><a href="#">A propos</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contacter</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h3>Souscrire</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p>Ne manquez pas de vous abonner à nos nouveaux flux, veuillez remplir le formulaire ci-dessous.</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
@@ -94,7 +92,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="https://wp.dev.irex.aretex.ca/">IREX</a></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
