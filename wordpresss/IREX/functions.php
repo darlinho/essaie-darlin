@@ -1,6 +1,5 @@
-require_once('bs4navwalker.php');
-
 <?php
+require_once('bs4navwalker.php');
 
 function themebs_enqueue_styles() {
 
@@ -14,3 +13,8 @@ function themebs_enqueue_scripts() {
   wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.bundle.min.js', array( 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'themebs_enqueue_scripts');
+
+register_nav_menus( array( 
+  'header' => 'Header menu', 
+  'footer' => 'Footer menu' 
+) );
