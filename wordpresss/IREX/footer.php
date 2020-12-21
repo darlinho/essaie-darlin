@@ -37,7 +37,7 @@
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" class="img-fluid" alt="logo" style="width:100px; height:100px; margin-top:-20px"></a>
+                                <a href="index.html"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" class="img-fluid" alt="logo" style="width:150px; height:100px; margin-top:-20px;border-radius: 10px;"></a>
                             </div>
                             <div class="footer-text">
                                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
