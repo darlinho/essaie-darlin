@@ -27,6 +27,19 @@
   </button>
   <?php
     wp_nav_menu([
+      'menu'            => 'Menu',
+      'theme_location'  => 'menu-1',
+      'container'       => 'div',
+      'container_id'    => 'navbarCollapse',
+      'container_class' => 'collapse navbar-collapse',
+      'menu_id'         => false,
+      'menu_class'      => 'navbar-nav mr-auto',
+      'depth'           => 0,
+      'fallback_cb'     => 'bs4navwalker::fallback',
+      'walker'          => new bs4navwalker()
+    ]);
+
+    wp_nav_menu([
       'menu'            => 'primary',
       'theme_location'  => 'menu-1',
       'container'       => 'div',
