@@ -20,10 +20,12 @@
 <body <?php body_class(); ?>>
 
 
+<div class="head" style="position:fixed; min-width: 100%; min-height: 100px">
+  Bonjour
+</div>
 
 
-
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="margin-top: 100px">
   <a href="#" class="navbar-brand">IREX</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollaps">
     <span class="navbar-toggler-icon"></span>
