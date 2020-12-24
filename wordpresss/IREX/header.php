@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 
 
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
   <a href="#" class="navbar-brand"></a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
     <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="color: white !important; ">
-            Dropdown link
+            A propos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 999 ">
             <a class="dropdown-item" href="#">Partenaires</a>
