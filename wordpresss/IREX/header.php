@@ -64,7 +64,7 @@
       'theme_location'  => 'menu-1',
       'container'       => 'div',
       'container_id'    => 'navbarCollapse',
-      'container_class' => 'collapse navbar-collapse',
+      // 'container_class' => 'collapse navbar-collapse',
       'menu_id'         => false,
       'menu_class'      => 'navbar-nav mr-auto',
       'depth'           => 0,
