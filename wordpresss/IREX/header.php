@@ -23,42 +23,46 @@
 
 
 
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-  <a href="#" class="navbar-brand">IREX</a>
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollaps">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollaps">
-    <ul class="navbar-nav ml-auto">
-      <li clas="navbar-item">
-        <a href="#" class="nav-link">Homepage</a>
-        </li>
-        <li clas="navbar-item">
-          <a href="#" class="nav-link">Blog</a>
-          </li>
-        <li clas="navbar-item">
-          <a href="#" class="nav-link">About</a>
-      </li>  
-      <li clas="navbar-item">
-          <a href="#" class="nav-link">Contact</a>
-      </li>
-    </ul>
-  </div>
+<nav class="navbar nav1">
+    <div class="container">
+        <div class="navbar-header">
+            
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right top-nv text-uppercase">
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Group Site</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"><i>Client Login</i></a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
+<div class="navbar navbar-inverse nav2" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/home/logo.png" alt="LOGO"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar2">
+            <ul class="nav navbar-nav navbar-right cust-nav text-uppercase ">
+                <li><a href="#">Wealth management</a></li>
+                <li><a href="#">Multi manager</a></li>
+                <li><a href="#">Asset manager</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">News &amp; Insights</a></li>
+                <div class="hd hidden-md"></div>
+            </ul>
 
+        </div>
 
-
-
-
-
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">
-    <?php bloginfo('name'); ?>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <?php
+        <?php
     wp_nav_menu([
       'menu'            => 'primary',
       'theme_location'  => 'menu-1',
@@ -71,8 +75,24 @@
       'fallback_cb'     => 'bs4navwalker::fallback',
       'walker'          => new bs4navwalker()
     ]);
-  ?>
-</nav>
+  ?> 
+    </div>
+</div>
+
+
+
+
+
+
+<!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">
+    <?php bloginfo('name'); ?>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</nav> -->
 
 
 
