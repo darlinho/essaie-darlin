@@ -20,12 +20,7 @@
 <body <?php body_class(); ?>>
 
 
-<div class="head" style="position:fixed; min-width: 100%; min-height: 100px">
-  Bonjour
-</div>
-
-
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 100px">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px">
   <a href="#" class="navbar-brand"></a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
     <span class="navbar-toggler-icon"></span>
@@ -53,7 +48,7 @@
 
 
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="margin-top: 70px">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="margin-top: 25px">
   <a class="navbar-brand" href="#">
     <?php bloginfo('name'); ?>
   </a>
