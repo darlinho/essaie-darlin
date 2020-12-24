@@ -31,10 +31,10 @@
         <a href="#" class="nav-link" style="color: white !important; ">Blog</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="color: white !important; ">
             Dropdown link
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 999 ">
             <a class="dropdown-item" href="#">Partenaires</a>
             <a class="dropdown-item" href="#">Carière</a>
             <a class="dropdown-item" href="#">Historique</a>
