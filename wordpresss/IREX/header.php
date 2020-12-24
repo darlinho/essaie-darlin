@@ -18,6 +18,39 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+
+
+
+
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+  <a href="#" class="navbar-brand">IREX</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li clas="navbar-item">
+        <a href="#" class="nav-link">Homepage</a>
+        </li>
+        <li clas="navbar-item">
+          <a href="#" class="nav-link">Blog</a>
+          </li>
+        <li clas="navbar-item">
+          <a href="#" class="nav-link">About</a>
+      </li>  
+      <li clas="navbar-item">
+          <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <a class="navbar-brand" href="#">
     <?php bloginfo('name'); ?>
@@ -26,19 +59,6 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <?php
-    wp_nav_menu([
-      'menu'            => 'Menu',
-      'theme_location'  => 'menu-1',
-      'container'       => 'div',
-      'container_id'    => 'navbarCollapse',
-      'container_class' => 'collapse navbar-collapse',
-      'menu_id'         => false,
-      'menu_class'      => 'navbar-nav mr-auto',
-      'depth'           => 0,
-      'fallback_cb'     => 'bs4navwalker::fallback',
-      'walker'          => new bs4navwalker()
-    ]);
-
     wp_nav_menu([
       'menu'            => 'primary',
       'theme_location'  => 'menu-1',
@@ -53,3 +73,10 @@
     ]);
   ?>
 </nav>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
