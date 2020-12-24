@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 
 
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: black !important;">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;">
   <a href="#" class="navbar-brand"></a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
     <span class="navbar-toggler-icon"></span>
