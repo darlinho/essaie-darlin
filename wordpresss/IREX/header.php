@@ -17,7 +17,7 @@
 
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="font-family: 'Poppins', sans-serif;">
 
 
 <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
