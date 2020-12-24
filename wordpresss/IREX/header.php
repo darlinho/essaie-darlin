@@ -28,17 +28,21 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto">
       <li clas="navbar-item">
-        <a href="#" class="nav-link" style="color: white !important; ">Homepage</a>
+        <a href="#" class="nav-link" style="color: white !important; ">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Partenaires</a>
+            <a class="dropdown-item" href="#">Carière</a>
+            <a class="dropdown-item" href="#">Historique</a>
+          </div>
         </li>
         <li clas="navbar-item">
-          <a href="#" class="nav-link" style="color: white !important; ">Blog</a>
-          </li>
-        <li clas="navbar-item">
-          <a href="#" class="nav-link" style="color: white !important; ">About</a>
+          <a href="#" class="nav-link" style="color: white !important; ">Contacter</a>
       </li>  
-      <li clas="navbar-item">
-          <a href="#" class="nav-link" style="color: white !important; ">Contact</a>
-      </li>
     </ul>
   </div>
 </nav>
@@ -49,6 +53,7 @@
 
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="margin-top: 25px">
+<img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" alt="IREX LOGO">
   <a class="navbar-brand" href="#">
     <?php bloginfo('name'); ?>
   </a>
