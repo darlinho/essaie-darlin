@@ -11,7 +11,7 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
