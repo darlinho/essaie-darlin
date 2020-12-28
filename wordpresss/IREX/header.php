@@ -53,7 +53,7 @@
 
 
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="margin-top: 25px">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="margin-top: 35px">
 <img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" alt="IREX LOGO">
   <a class="navbar-brand" href="https://wp.dev.irex.aretex.ca/" style="color: black !important;">
     <?php bloginfo('name'); ?>
