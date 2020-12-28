@@ -22,7 +22,7 @@
 
 <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
   <a href="#" class="navbar-brand"></a>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="collaps navbar-collapse" id="navbarCollaps">
     <ul class="navbar-nav ml-auto">
       <li clas="navbar-item">
         <a href="#" class="nav-link" style="color: white !important; ">Blog</a>
