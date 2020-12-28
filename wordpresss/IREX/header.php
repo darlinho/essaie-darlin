@@ -24,10 +24,10 @@
 
 
 
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 35px; background-color: #202020 !important;z-index: 9999;">
   <a href="#" class="navbar-brand"></a>
   <div class="mynavbar" id="mynav">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-na" style="display:flex; margin-top: -10px">
       <li clas="navbar-item">
         <a href="#" class="nav-link" style="color: white !important; ">Blog</a>
         </li>
