@@ -20,7 +20,11 @@
 <body <?php body_class(); ?> style="font-family: 'Poppins', sans-serif;">
 
 
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
+
+
+
+
+<!-- <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
   <a href="#" class="navbar-brand"></a>
   <div class="collaps navbar-collapse" id="navbarCollaps">
     <ul class="navbar-nav ml-auto">
@@ -42,8 +46,21 @@
       </li>  
     </ul>
   </div>
-</nav>
+</nav> -->
 
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
 
 
 
