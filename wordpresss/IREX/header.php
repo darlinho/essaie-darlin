@@ -24,9 +24,9 @@
 
 
 
-<!-- <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 25px; background-color: #202020 !important;z-index: 9999;">
   <a href="#" class="navbar-brand"></a>
-  <div class="collaps navbar-collapse" id="navbarCollaps">
+  <div class="mynavbar" id="mynav">
     <ul class="navbar-nav ml-auto">
       <li clas="navbar-item">
         <a href="#" class="nav-link" style="color: white !important; ">Blog</a>
@@ -46,17 +46,8 @@
       </li>  
     </ul>
   </div>
-</nav> -->
+</nav>
 
-
-<div class="dropdown">
-  <button class="dropbtn">Name</button>
-  <div class="dropdownContent">
-    <a href="#">One</a>
-    <a href="#">Two</a>
-    <a href="#">Three</a>
-  </div>
-</div>
 
 
 
