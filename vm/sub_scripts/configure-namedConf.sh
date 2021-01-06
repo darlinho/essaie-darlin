@@ -18,13 +18,6 @@ zone "${DOMAIN}" IN {
 	allow-transfer { $DNSIP; 8.8.8.8; };
 };
 
-zone "${DOMAIN}" IN {
-
-	type master;
-	file "/etc/bind/forward.$DOMAIN.db";
-	//allow-update { none; };
-	allow-transfer { $DNSIP; 8.8.8.8; };
-};
 
 zone "irex.aretex.ca" IN {
 

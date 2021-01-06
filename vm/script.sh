@@ -16,9 +16,9 @@ Installation(){
  
 #### Variables
 
+source conf/conf.defaults
+
 IPADDRESS=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1 -d'/')
-GATEWAYIP="192.168.33.1"
-DNSIP="192.168.33.108"
 DOMAIN=$(hostname -d)
 HOSTNAME=$(hostname)
 HOST=$(hostname -s)
