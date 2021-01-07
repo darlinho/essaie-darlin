@@ -19,8 +19,6 @@ Installation(){
 source conf/conf.defaults
 
 IPADDRESS=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1 -d'/')
-DOMAIN=$(hostname -d)
-HOSTNAME=$(hostname)
 HOST=$(hostname -s)
 
 #### Update repository index
@@ -29,7 +27,7 @@ sudo apt update
 
 #### Configure DNS to use static ip address
 
-source sub_scripts/configure-static-ip.sh
+#source sub_scripts/configure-static-ip.sh
 
 #### Install DNS and configure DNS
 

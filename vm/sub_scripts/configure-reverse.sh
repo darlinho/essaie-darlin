@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Reverse file"
+
 sudo cat <<EOF > /etc/bind/reverse.$DOMAIN.db
 ;
 ; BIND reverse data file for local loopback interface
@@ -17,15 +19,17 @@ $TTL	604800
 
 ;Name server information
 
-@	IN	NS	$HOSTNAME.
+@	IN	NS	$HOST.$DOMAIN.
 
 ;Reverse lookup for Name server
 
-10	IN	PTR	$HOSTNAME.
+10	IN	PTR	$HOST.$DOMAIN.
 
 ;PTR Record ip address to hostname
 
-216	IN	PTR	bbb.dev.irex.aretex.ca.
+216	IN	PTR	bbb.$DOMAIN.
 
 
 EOF
+
+sleep 5

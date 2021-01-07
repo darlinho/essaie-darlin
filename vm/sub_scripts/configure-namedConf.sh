@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Create nam.conf"
+
 sudo cat <<EOF > /etc/bind/named.conf.local
 //
 // Do any local configuration here
@@ -19,7 +21,7 @@ zone "${DOMAIN}" IN {
 };
 
 
-zone "irex.aretex.ca" IN {
+zone "dev.irex.aretex.ca" IN {
 
 	type master;
 	file "/etc/bind/forward.$DOMAIN.db";
@@ -36,3 +38,5 @@ zone "33.168.192.in-addr.arpa" IN {
 	allow-transfer { 8.8.8.8; };
 };
 EOF
+
+sleep 5
