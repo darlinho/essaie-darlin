@@ -47,7 +47,7 @@
                                 <span>Follow us</span>
                                 <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/chrome_facebook.png" style="width:50px; height:50px; margin-top:-20px"/></a>
                                 <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/icons8-whatsapp-240.png" style="width:50px; height:50px; margin-top:-20px"/></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2021/01/linkedin-logo-png-images-free-download-linkedin-logo-png-640_640.png" style="width:50px; height:50px; margin-top:-20px"/></a>
                             </div>
                         </div>
                     </div>
