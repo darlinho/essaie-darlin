@@ -43,7 +43,10 @@
         </li>
         <li clas="navbar-item">
           <a href="#" class="nav-link" style="color: white !important; ">Contacter</a>
-      </li>  
+        </li>  
+        <li clas="navbar-item">
+          <a href="#" class="nav-link" style="color: white !important; ">FAQ</a>
+        </li>  
     </ul>
   </div>
 </nav>
