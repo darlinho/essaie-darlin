@@ -8,7 +8,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Nous trouver</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                                <span>748 #2 rue de Montbrun J4B 7Z9 Boucherville Québec Canada</span>
                             </div>
                         </div>
                     </div>
@@ -17,7 +17,7 @@
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
                                 <h4>Nous appeler</h4>
-                                <span>9876543210 0</span>
+                                <span>514 826 9580</span>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
                                 <h4>Nous écrire</h4>
-                                <span>mail@info.com</span>
+                                <span>contact-irex@aretex.ca</span>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,7 @@
                                 <a href="index.html"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" class="img-fluid" alt="logo" style="width:150px; height:100px; margin-top:-20px;border-radius: 10px;"></a>
                             </div>
                             <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>Cheminez avec assurance vers une carrière professionelle à la hauteur de votre potentiel.</p>
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
@@ -65,6 +64,7 @@
                                 <li><a href="#">A propos</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contacter</a></li>
+                                <li><a href="#">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 <h3>Souscrire</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Ne manquez pas de vous abonner à nos nouveaux flux, veuillez remplir le formulaire ci-dessous.</p>
+                                <p>Abonnez vous à notre liste de diffusion et restez informés des bons plans et de notre actualité</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
