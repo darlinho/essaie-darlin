@@ -79,7 +79,7 @@
                             <div class="subscribe-form">
                                 <form action="#">
                                     <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                    <button><i class="fab fa-telegram-plane"></i>Souscrire</button>
                                 </form>
                             </div>
                         </div>
