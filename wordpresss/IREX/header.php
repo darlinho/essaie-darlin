@@ -24,7 +24,7 @@
 
 
 
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 35px; background-color: #1669c1 !important;z-index: 9999;">
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" style="height: 35px; background-color: #007bff !important;z-index: 9999;">
   <a href="#" class="navbar-brand"></a>
   <div class="mynavbar" id="mynav">
     <ul class="navbar-na" style="display:flex; margin-top: -10px; list-style: none;">
