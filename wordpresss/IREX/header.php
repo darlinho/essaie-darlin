@@ -13,6 +13,7 @@
     <meta name="author" content="">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
     <meta name="viewport" content="width=device-width">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
