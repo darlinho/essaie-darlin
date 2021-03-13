@@ -18,6 +18,7 @@
  * @package WordPress
  */
 
+/** multisite */
 define("WP_ALLOW_MULTISITE", true);
 
 // ** MySQL settings - You can get this info from your web host ** //
@@ -86,6 +87,13 @@ define( 'WP_DEBUG', false );
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
 	$_SERVER['HTTPS'] = 'on';
 }
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'wp.uat.irex.aretex.ca');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* That's all, stop editing! Happy publishing. */
 
