@@ -2,6 +2,7 @@
 
 WP_HOME=$HOME/wordpress/docker
 
+sed -i "s/SERVER_NAME=.*/SERVER_NAME=$SERVER_NAME/g" $WP_HOME/conf.defaults
 
 sed -i "s/IREX_DOMAIN=.*/IREX_DOMAIN=$IREX_DOMAIN/g" $WP_HOME/conf.defaults
 
