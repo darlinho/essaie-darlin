@@ -1,0 +1,1 @@
+UPDATE `wp_users` SET `user_pass` = MD5( 'w0rdpr355-u1T' ) WHERE `wp_users`.`user_login` = "admin";
