@@ -12,8 +12,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://wp.dev.irex.aretex.ca/wp-content/themes/irex/style.css">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="https://wp.dev.irex.aretex.ca/wp-content/themes/irex/css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/elegant-icons@0.0.1-alpha.4/elegant-icons.css" integrity="sha256-sBa7x1vl84pa660kRpy/EiYF0lSRL8SxRqUbCDaLEfg=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" />
