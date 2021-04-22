@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="icon_pin_alt"></i>
                             <div class="cta-text">
                                 <h4>Nous trouver</h4>
                                 <span>748 #2 rue de Montbrun J4B 7Z9 Boucherville Québec Canada</span>
@@ -14,7 +14,7 @@
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
-                            <i class="fas fa-phone"></i>
+                            <i class="icon_phone"></i>
                             <div class="cta-text">
                                 <h4>Nous appeler</h4>
                                 <span>514 826 9580</span>
@@ -23,7 +23,7 @@
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
+                            <i class="icon_mail"></i>
                             <div class="cta-text">
                                 <h4>Nous écrire</h4>
                                 <span>contact-irex@aretex.ca</span>
@@ -79,7 +79,7 @@
                             <div class="subscribe-form">
                                 <form action="#">
                                     <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i>Souscrire</button>
+                                    <button><i class="icon_mail"></i>Souscrire</button>
                                 </form>
                             </div>
                         </div>
