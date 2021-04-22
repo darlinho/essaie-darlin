@@ -11,8 +11,9 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://wp.dev.irex.aretex.ca/wp-content/themes/irex/style.css">
     <link rel="stylesheet" href="https://wp.dev.irex.aretex.ca/wp-content/themes/irex/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="https://wp.dev.irex.aretex.ca/wp-content/themes/irex/css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/elegant-icons@0.0.1-alpha.4/elegant-icons.css" integrity="sha256-sBa7x1vl84pa660kRpy/EiYF0lSRL8SxRqUbCDaLEfg=" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width">
@@ -60,7 +61,9 @@
 
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="margin-top: 35px">
-<img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" alt="IREX LOGO">
+<a href="https://wp.dev.irex.aretex.ca">
+  <img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/logo-64.png" alt="IREX LOGO">
+</a>
   <a class="navbar-brand" href="https://wp.dev.irex.aretex.ca/" style="color: black !important;">
     <?php bloginfo('name'); ?>
   </a>
