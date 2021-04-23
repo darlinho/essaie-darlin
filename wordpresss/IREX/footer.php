@@ -56,15 +56,17 @@
                                 <h3>Liens utiles</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Etudiant</a></li>
-                                <li><a href="#">Professionnel</a></li>
-                                <li><a href="#">Chercheur d'emploi</a></li>
-                                <li><a href="#">Entrepreneur</a></li>
-                                <li><a href="#">A propos</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacter</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca">Home</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/student">Etudiant</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/professionnal">Professionnel</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/job-seeker">Chercheur d'emploi</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/entrepreuneurs">Entrepreneur</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/partenaires">parténaires</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/historique">Historique</a></li>
+                                <li><a href="https://erpnext.dev.irex.aretex.ca/blog">Blog</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/contact">Contacter</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/faq">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
