@@ -39,16 +39,16 @@
             A propos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 999 ">
-            <a class="dropdown-item" href="#">Partenaires</a>
-            <a class="dropdown-item" href="#">Carière</a>
-            <a class="dropdown-item" href="#">Historique</a>
+            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/partenaires">Partenaires</a>
+            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/carriere">Carière</a>
+            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/historique">Historique</a>
           </div>
         </li>
         <li clas="navbar-item">
-          <a href="#" class="nav-link" style="color: white !important; ">Contacter</a>
+          <a href="https://wp.dev.irex.aretex.ca/contact" class="nav-link" style="color: white !important; ">Contacter</a>
         </li>  
         <li clas="navbar-item">
-          <a href="#" class="nav-link" style="color: white !important; ">FAQ</a>
+          <a href="faq" class="nav-link" style="color: white !important; ">FAQ</a>
         </li>  
     </ul>
   </div>
