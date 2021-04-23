@@ -79,7 +79,7 @@
                             <div class="subscribe-form">
                                 <form action="#">
                                     <input type="text" placeholder="Email Address">
-                                    <button><i class="icon_mail"></i>Souscrire</button>
+                                    <button style="height:54px"><i class="icon_mail"></i>Souscrire</button>
                                 </form>
                             </div>
                         </div>
