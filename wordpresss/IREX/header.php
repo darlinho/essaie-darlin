@@ -32,7 +32,7 @@
   <div class="mynavbar" id="mynav">
     <ul class="navbar-na" style="display:flex; margin-top: -10px; list-style: none;">
       <li clas="navbar-item">
-        <a href="https://wp.dev.irex.aretex.ca/blog/" class="nav-link" style="color: white !important; ">Blog</a>
+        <a href="https://erpnext.dev.irex.aretex.ca/blog" class="nav-link" style="color: white !important; ">Blog</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="color: white !important; ">
