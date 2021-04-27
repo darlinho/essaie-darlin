@@ -265,7 +265,7 @@ ul {
 .footer-section {
   background: #007bff;
   position: relative;
-	box-shadow:1px 1px 5px rgba(0,0,0,.5);
+  box-shadow:1px 1px 5px rgba(0,0,0,.5);
 }
 .-cta {
   border-bottom: 1px solid #373636;
