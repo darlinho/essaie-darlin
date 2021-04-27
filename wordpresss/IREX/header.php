@@ -40,7 +40,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 999 ">
             <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/partenaires">Partenaires</a>
-            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/carriere">Carière</a>
+            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a>
             <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/historique">Historique</a>
           </div>
         </li>

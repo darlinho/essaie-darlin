@@ -44,9 +44,9 @@
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/chrome_facebook.png" style="width:50px; height:50px; margin-top:-20px"/></a>
-                                <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/icons8-whatsapp-240.png" style="width:50px; height:50px; margin-top:-20px"/></a>
-                                <a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2021/01/linkedin-logo-png-images-free-download-linkedin-logo-png-640_640.png" style="width:50px; height:50px; margin-top:-20px"/></a>
+                                <a href="https://www.facebook.com/ireturnexperience/"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/chrome_facebook.png" style="width:50px; height:50px; margin-top:-20px"/></a>
+                                <!--<a href="#"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2020/12/icons8-whatsapp-240.png" style="width:50px; height:50px; margin-top:-20px"/></a>-->
+                                <a href="https://www.linkedin.com/company/ireturnexperience/"><img src="https://wp.dev.irex.aretex.ca/wp-content/uploads/2021/01/linkedin-logo-png-images-free-download-linkedin-logo-png-640_640.png" style="width:50px; height:50px; margin-top:-20px"/></a>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                 <li><a href="https://wp.dev.irex.aretex.ca/professionnal">Professionnel</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/job-seeker">Chercheur d'emploi</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/entrepreuneurs">Entrepreneur</a></li>
-                                <li><a href="https://wp.dev.irex.aretex.ca/partenaires">parténaires</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/partenaires">Parténaires</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/historique">Historique</a></li>
                                 <li><a href="https://erpnext.dev.irex.aretex.ca/blog">Blog</a></li>
@@ -100,11 +100,11 @@
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/">Home</a></li>
+                                <li>Terms</li>
+                                <li>Privacy</li>
+                                <li>Policy</li>
+                                <li>Contact</li>
                             </ul>
                         </div>
                     </div>
