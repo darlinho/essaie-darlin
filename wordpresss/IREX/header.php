@@ -45,7 +45,7 @@
           </div>
         </li>
         <li clas="navbar-item">
-          <a href="https://wp.dev.irex.aretex.ca/contact" class="nav-link" style="color: white !important; ">Contacter</a>
+          <a href="https://wp.dev.irex.aretex.ca/contact" class="nav-link" style="color: white !important; ">Contact</a>
         </li>  
         <li clas="navbar-item">
           <a href="faq" class="nav-link" style="color: white !important; ">FAQ</a>

@@ -65,7 +65,7 @@
                                 <li><a href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/historique">Historique</a></li>
                                 <li><a href="https://erpnext.dev.irex.aretex.ca/blog">Blog</a></li>
-                                <li><a href="https://wp.dev.irex.aretex.ca/contact">Contacter</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/contact">Contact</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/faq">FAQ</a></li>
                             </ul>
                         </div>
