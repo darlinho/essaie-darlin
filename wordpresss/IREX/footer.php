@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
-                            <ul style="color: #878787;">
+                            <ul style="color: #878787; font-size: 13px;">
                                 <li><a href="https://wp.dev.irex.aretex.ca/">Home</a></li>
                                 <li>Terms</li>
                                 <li>Privacy</li>
