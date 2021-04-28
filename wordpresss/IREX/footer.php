@@ -59,7 +59,7 @@
                                 <li><a href="https://wp.dev.irex.aretex.ca">Home</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/student">Etudiant</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/professionnal">Professionnel</a></li>
-                                <li><a href="https://wp.dev.irex.aretex.ca/job-seeker" style="text-transform: none;" >Chercheur d'emploi</a></li>
+                                <li><a href="https://wp.dev.irex.aretex.ca/job-seeker">Chercheur d'emploi</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/entrepreuneurs">Entrepreneur</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/partenaires">Partenaires</a></li>
                                 <li><a href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a></li>
