@@ -40,12 +40,13 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 999 ">
             <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/partenaires">Partenaires</a>
-            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a>
             <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/historique">Historique</a>
+            <a class="dropdown-item" href="https://wp.dev.irex.aretex.ca/carriere">Carrière</a>
+            
           </div>
         </li>
         <li clas="navbar-item">
-          <a href="https://wp.dev.irex.aretex.ca/contact" class="nav-link" style="color: white !important; ">Contact</a>
+          <a href="https://erpnext.dev.irex.aretex.ca/contact" class="nav-link" style="color: white !important; ">Contact</a>
         </li>  
         <li clas="navbar-item">
           <a href="faq" class="nav-link" style="color: white !important; ">FAQ</a>
